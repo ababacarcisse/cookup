@@ -11,7 +11,7 @@ export default function Grid() {
 
   return (
       <>
-      <div className="container-fluid rounded" style={{ backgroundColor: 'green', width: '60%', height: 'auto' }}>
+      <div className="container-fluid rounded" style={{ backgroundColor: 'green', width: '70%', height: 'auto' }}>
       <p className="text-center text-light mt-4 p-4">
         Lorem ipsum, dolor sit amet consectetur adipisicing <br />
         elit. Excepturi perspiciatis eligendi iste veritatis similique harum aut!
