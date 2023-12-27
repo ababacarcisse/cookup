@@ -7,7 +7,7 @@ import ImageSlider from './navbar/slider';
 
 function App() {
   return (
-    <div>
+    <div style={{backgroundColor:'#FEFEE2'}}>
      <Topnavbar/>
      <ImageSlider/>
      <How/>
