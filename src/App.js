@@ -1,5 +1,6 @@
 
 import './App.css';
+import Blog from './navbar/blog';
 import Grid from './navbar/grid';
 import How from './navbar/how';
 import Topnavbar from './navbar/navbar';
@@ -12,6 +13,7 @@ function App() {
      <ImageSlider/>
      <How/>
      <Grid/>
+     <Blog/>
     </div>
   );
 }
