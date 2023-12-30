@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import sepa from './images/sepa.png'
 import video from './images/webvideo.mp4'
+import './Carousel.css'
 
 export default function ImageSlider() {
   return (
@@ -24,9 +25,11 @@ export default function ImageSlider() {
                 
               }}
             >Découvrir</button>
+            
+	
           </div>
         </div>
-        <div className="col-lg-6 bg-warning d-flex align-items-center justify-content-center p-5" style={{ height: '60vh' }}>
+        <div className="col-lg-6 bg-warning d-flex align-items-center justify-content-center p-5" style={{ height: '100vh' }}>
           <video autoPlay muted className="border border-danger rounded" style={{ maxWidth: '100%', maxHeight: '100%' }}>
             <source src={video} type="video/mp4" />
           </video>
