@@ -15,7 +15,7 @@ export default function Topnavbar() {
             <Nav.Link href="#home" className="text-light" > <b>Passer en cuisine</b> </Nav.Link>
           </Nav>
           <Nav>
-          <Nav.Link href="#home" className="text-light" > <b>Acceuil Acceuil </b> </Nav.Link>
+          <Nav.Link href="#home" className="text-light" > <b>Acceuil Acceuil Acceuil </b> </Nav.Link>
             <Nav.Link href="#features" className="text-light"> <b>A propos</b> </Nav.Link>
             <Nav.Link href="#pricing" className="text-light"> <b>Aide</b> </Nav.Link>
             <Nav.Link><button className="btn btn-light" style={{color:'#FF5733',borderRadius:'20px'}} > <b>Découvrir</b> </button></Nav.Link>
